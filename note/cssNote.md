@@ -9,3 +9,17 @@
         text-overflow: ellipsis
     }
     ```
+* 通过相同的类名获得第几个应用到该类的选择器(若类名为class = exerciseInfo)，则：
+    * 选择第一个类名： 
+        ```
+        .exerciseInfo: nth-of-type(1) { ... };
+        ```
+    * 选择最后一个类名： 
+        ```
+        .exerciseInfo: last-child { ... };
+        ```
+    * 选择其中一个指定的类名：
+        ```
+        .exerciseInfo: nth-of-type(x) { ... };
+        ```
+
