@@ -5,3 +5,5 @@
 
 >> [前端正则表达式的语法](https://github.com/asendyfan/blog/issues/2)
 
+> # css样式
+>> [常用样式写法](/note/cssNote.md)
