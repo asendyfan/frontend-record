@@ -22,4 +22,8 @@
         ```
         .exerciseInfo: nth-of-type(x) { ... };
         ```
-
+* 子元素z-index值小于父元素的时候，子元素的hover不起作用，因为直接指定到父元素了
+* linear-gradient(direction, color-stop1, color-stop2,...)可以用于在div中画斜线
+    * background: linear-gradient(to left top, transparent 49.5%, red, transparent 50.5%);//调节百分比，间接设置斜线的宽度，位置，斜线方向 由左向上
+* 外阴影：box-shadow: X轴  Y轴  Rpx  color;
+    * 属性说明（顺序依次对应）： 阴影的X轴(可以使用负值)    阴影的Y轴(可以使用负值)    阴影模糊值（大小）    阴影的颜色
