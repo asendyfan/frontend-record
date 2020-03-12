@@ -14,5 +14,5 @@
 
 其用处主要是为两个钩子提供了可监听的流，使其可以运用在rxjs中
 代码如下：
-1. [useStateStream](/src/hooks/useStateStream.jsx)
-1. [useReducerStream](/src/hooks.useReducerStream.jsx)
+1. [useStateStream](/src/react/rxjs/useStateStream.jsx)
+1. [useReducerStream](/src/react/rxjs/useReducerStream.jsx)
