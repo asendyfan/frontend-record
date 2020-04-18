@@ -22,7 +22,7 @@ export default function useParams({
         if (action.type === 'refresh') {
             const refreshValue = refreshKey.reduce((pre: any, cur: any) => {
                 if (initValue[pre] !== undefined) cur[pre] = initValue[pre]
-                return cur
+                return pre
             }, {} as any)
             return { ...state, ...refreshValue, ...rest }
         } else if (action.type === 'update') {
