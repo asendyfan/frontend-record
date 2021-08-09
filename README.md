@@ -1,5 +1,4 @@
-## asendyfan的个人博客
-## 写博客，记录学过、用过的，以免自己会忘记
+## 记录学过、用过的，以免自己会忘记
 > # 业务逻辑处理工具
 >> [writeToURL](src/serviceUtils/writeToURL.ts) 从history对象中预处理url内容
 >>
